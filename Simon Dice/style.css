@@ -1,0 +1,32 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cuadro {
+    height: 200px;
+    opacity: 0.4;
+    transition: opacity 500ms;
+}
+
+#cuadro-1 {
+    background: red;
+}
+
+#cuadro-2 {
+    background: blue;
+}
+
+#cuadro-3 {
+    background: yellow;
+}
+
+#cuadro-4 {
+    background: green;
+}
